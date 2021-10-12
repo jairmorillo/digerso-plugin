@@ -1,0 +1,99 @@
+.Funding {
+    position: relative;
+  }
+  .Funding .container {
+    margin-top: 40px;
+    background: #ffffff;
+    padding: 50px 23px;
+  }
+  .Funding .form-control {
+    color: #495057;
+    font-size: 0.9rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .Funding .form-control:focus {
+    color: #404346;
+    background-color: #fff;
+    border-color: #f2f2f3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(254 254 255 / 98%);
+  }
+  .Funding .radio {
+    float: left;
+    margin-left: 10px;
+  }
+  .Funding .radio-label {
+    float: left;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-left: 10px;
+  }
+  .inner-card {
+    margin: 79px 0px 70px 0px;
+  }
+
+  .card-0 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .card-1 {
+    border-radius: 17px;
+    color: black;
+    box-shadow: 2px 4px 15px 0px rgb(0, 0, 0, 0.5) !important;
+  }
+
+  #accountStatementFiles,
+  #driverLicensesFiles,
+  #cheFiles {
+    border: 2px dashed #92b0b3 !important;
+  }
+
+  .color input {
+    background-color: #f1f1f1;
+  }
+
+  .files:before {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    content: attr(data-before);
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #driverLicensesFiles {
+    display: inline-block;
+    width: 100%;
+    padding: 95px 0 0 100%;
+    background: url("https://i.imgur.com/VXWKoBD.png") top center no-repeat
+      #fff;
+    background-size: 55px 55px;
+  }
+  #cheFiles {
+    display: inline-block;
+    width: 100%;
+    padding: 95px 0 0 100%;
+    background: url("https://i.imgur.com/VXWKoBD.png") top center no-repeat
+      #fff;
+    background-size: 55px 55px;
+  }
+  #accountStatementFiles {
+    display: inline-block;
+    width: 100%;
+    padding: 95px 0 0 100%;
+    background: url("https://i.imgur.com/VXWKoBD.png") top center no-repeat
+      #fff;
+    background-size: 55px 55px;
+  }
